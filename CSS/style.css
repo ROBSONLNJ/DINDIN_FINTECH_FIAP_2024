@@ -1,0 +1,85 @@
+.gradient {
+    background-image: linear-gradient(330deg,
+            hsl(0deg 0% 0%) 0%,
+            hsl(120deg 100% 8%) 0%,
+            hsl(120deg 100% 10%) 0%,
+            hsl(120deg 100% 13%) 0%,
+            hsl(130deg 100% 17%) 1%,
+            hsl(139deg 100% 20%) 3%,
+            hsl(144deg 100% 24%) 5%,
+            hsl(148deg 100% 28%) 9%,
+            hsl(151deg 100% 32%) 16%,
+            hsl(153deg 100% 36%) 26%,
+            hsl(155deg 100% 40%) 50%,
+            hsl(151deg 74% 53%) 84%,
+            hsl(149deg 89% 63%) 100%);
+}
+
+body {
+        font-family: Catamaran, sans-serif;
+        font-style: ;
+}
+
+.navbar {
+        color: rgb(255, 255, 255);
+        padding: 0.5rem;
+}
+
+.hero {
+        background-image: linear-gradient(330deg,
+                hsl(0deg 0% 0%) 0%,
+                hsl(120deg 100% 8%) 0%,
+                hsl(120deg 100% 10%) 0%,
+                hsl(120deg 100% 13%) 0%,
+                hsl(130deg 100% 17%) 1%,
+                hsl(139deg 100% 20%) 3%,
+                hsl(144deg 100% 24%) 5%,
+                hsl(148deg 100% 28%) 9%,
+                hsl(151deg 100% 32%) 16%,
+                hsl(153deg 100% 36%) 26%,
+                hsl(155deg 100% 40%) 50%,
+                hsl(151deg 74% 53%) 84%,
+                hsl(149deg 89% 63%) 100%);
+        min-height: 100vh;
+        color: rgb(255, 255, 255);
+}
+
+.logo {
+    padding-top: 1rem;
+    max-width: 180px;
+    min-height: 180px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+}
+
+
+.mb-3 {
+    margin-left: 0.5rem;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3rem;
+    display: block;
+}
+
+.btn {
+    background-color: rgb(17, 53, 54);
+    color: var(--bg-gradient);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var  (--bg-gradient);
+    
+}
